@@ -2,7 +2,9 @@
 title: "HelloWorld.md"
 author: "noor"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
